@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+class Student circle
+{
+public:
+float r,area;
+circle()
+{
+cout<<"Enter radius of circle";
+cin>>r;
+area=3.14*r*r;
+}
+void display()
+{
+cout<<"Area of circle is"<<area<<endl;
+}
+};
+ int main()
+{
+circle c1;
+c1 display();
+return 0;
+}
